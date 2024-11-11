@@ -1,0 +1,34 @@
+#container
+{
+    display: grid;
+    grid-template-columns:auto auto auto ; /*mientras mas autos se pone en mas columnas*/
+    /*fr fraccion relativa depende a la otra segun la rediemnsion de los dispositivos*/
+    /*gap separaciones entre los componentes que le va dando*/
+    /*grid lines es como el excel*/
+    gap: 15px 15px;
+    /*use te page: cssgrid-generator.netlify.app para maquetar las grillas*/
+
+}
+.caja
+{
+    background-color: rgb(85, 32, 134);
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.7fr repeat(2, 2fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 4;  background-color: black; color: beige;}
+    .div2 { grid-area: 2 / 1 / 6 / 2; background-color: rgb(170, 43, 43); color: beige;}
+    .div3 { grid-area: 6 / 1 / 7 / 4; background-color: rgb(50, 65, 151); color: beige;}
+    .div4 { grid-area: 3 / 2 / 4 / 4; background-color: rgb(170, 29, 151); color: beige;}
+    .div5 { grid-area: 4 / 2 / 5 / 4; background-color: rgb(70, 175, 194); color: beige;}
+    .div6 { grid-area: 5 / 2 / 6 / 4; background-color: rgb(196, 143, 143); color: beige;}
+    .div7 { grid-area: 2 / 2 / 3 / 3; background-color: rgb(135, 201, 92); color: beige; }
+    .div8 { grid-area: 2 / 3 / 3 / 4; background-color: rgb(78, 34, 199); color: beige;}

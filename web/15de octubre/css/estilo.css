@@ -1,0 +1,13 @@
+.caja{
+    background-color: cornflowerblue;
+    border: 2px solid white;
+
+}
+.menu{
+    background-color: brown;
+    border:2px solid white;
+}
+.cuerpo{
+    background-color:lightskyblue;
+    border:2px solid white;
+}

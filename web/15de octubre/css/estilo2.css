@@ -1,0 +1,21 @@
+.header,.footer{
+    background-color: chartreuse;
+    border: 2px solid white;
+
+}
+.menu{
+    background-color: red;
+    border: 2px solid white;
+}
+.caja{
+    background-color: cornflowerblue;
+    border: 2px solid white;
+}
+.rosado{
+    background-color: rosybrown;
+    border: 2px solid white;
+}
+.ro{
+    background-color: purple;
+    border: 2px solid white;
+}

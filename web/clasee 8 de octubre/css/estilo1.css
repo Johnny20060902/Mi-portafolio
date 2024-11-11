@@ -1,0 +1,87 @@
+div#container
+{
+    display:flex ;
+    flex-direction:row;     /*direccion de cajas*/
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row wrap;*//*lo mismo de arriba pero en una linea*/
+    justify-content: space-evenly;/*alineacion depende a la ventana*/
+    align-items:baseline;
+    height: 500px;
+    align-content: space-between;/*hace que todo se acomode y no se vaya todo abajo*/
+} 
+.caja1{
+    background-color:cornflowerblue;
+    margin: 5px; 
+    padding: 15px;
+    color: white;
+    height:45px ;
+    width: 45px;
+    text-align: center;
+    
+   
+    
+}
+.caja2{
+    background-color:darkslateblue;
+    margin: 5px; 
+    padding: 15px;
+    color: white;
+    height:70px ;
+    
+}
+.caja3{
+    background-color:black;
+    margin: 5px; 
+    padding: 15px;
+    color: white;
+    height:45px ;
+    width: 45px;
+    text-align: center;
+    order: 4;/*juega con las cajas  con su contenido los intercambia*/
+   flex-grow: 1;
+    
+}
+.caja4{
+    background-color:black;
+    margin: 5px; 
+    padding: 15px;
+    color: white;
+    height:45px ;
+    width: 45px;
+    text-align: center;
+    order: 7;
+   
+    
+}.caja5{
+    background-color:black;
+    margin: 5px; 
+    padding: 15px;
+    color: white;
+    height:45px ;
+    width: 45px;
+    text-align: center;
+   
+    
+}.caja6{
+    background-color:black;
+    margin: 5px; 
+    padding: 15px;
+    color: white;
+    height:45px ;
+    width: 45px;
+    text-align: center;
+   
+    
+}.caja7{
+    background-color:black;
+    margin: 5px; 
+    padding: 15px;
+    color: white;
+    height:45px ;
+    width: 45px;
+    text-align: center;
+    flex-grow: 2;
+    
+}
+h1{text-align: center;}

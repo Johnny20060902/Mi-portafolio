@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: 20px;
+}
+div{
+    margin: 5px;
+}
+.btn-custom {
+    color: #64ffda;
+    border: 1px solid #64ffda;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn-custom:hover {
+    background-color: #64ffda;
+    color: #0a192f;
+}
+.project-card {
+    background-color: rgba(17, 34, 64, 0.8); /* Fondo semitransparente */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ccd6f6; /* Asegura un buen contraste */
+    transition: transform 0.3s;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+}

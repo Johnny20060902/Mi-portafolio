@@ -1,0 +1,36 @@
+input[type],select{
+    display: block;
+}
+input:focus[type="text"]{
+    background-color: yellow;
+    opacity: 0.5;
+    text-decoration-color: yellow;
+    border-radius:5px ;
+    padding: auto;
+   
+}
+input:focus[type="email"]{
+    background-color: black;
+    opacity: 0.3;
+    color:wheat;
+    border-radius:5px ;
+}
+h1,label,input[type]{
+    text-align: center;
+    
+}
+div.colores{
+    background-color: darkblue;
+    color: wheat;
+    opacity: 0.5;
+}
+body{
+
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-attachment: fixed;
+    background-image:url("../img/iron man.jfif");
+}
+
+
+

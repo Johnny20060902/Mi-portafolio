@@ -1,0 +1,41 @@
+a:link
+{
+    color:red;
+    text-decoration:none; 
+}
+a:visited
+{
+    color: darkmagenta;
+    font-size: 20px;
+}
+div.primer
+{
+    background-color: blue;
+    color: chartreuse;
+}
+div:hover
+{
+background-color: black;
+color:white;
+}
+p#tercero:first-child{
+    background-color:beige;
+    color: rgb(0, 102, 255);
+    
+}
+div.second:hover{
+    background-color:black;
+    color: white;
+}
+p#dr::before{
+    content:"Texto Inicial ";
+}
+p#dr::after{
+    content:"Texto Final" ;
+    color: red;
+}
+div.estilok::first-letter{
+    background-color: cadetblue;
+    color: black;
+    padding: 5px;
+}

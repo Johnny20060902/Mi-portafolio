@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+table{
+    margin: 2px;
+    border-color: black;
+    border: 2px;
+}
+td{
+    margin: 3px;
+}
+img{
+    align-items: center;
+}
